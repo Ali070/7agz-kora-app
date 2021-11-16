@@ -3,10 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/Projects/7agzkora/app/src/main/res/drawable/favorite.xml" value="0.2703125" />
         <entry key="..\:/Android/Projects/7agzkora/app/src/main/res/drawable/home.xml" value="0.14635416666666667" />
         <entry key="..\:/Android/Projects/7agzkora/app/src/main/res/drawable/info.xml" value="0.2703125" />
+        <entry key="..\:/Android/Projects/7agzkora/app/src/main/res/drawable/item_back.xml" value="0.2703125" />
         <entry key="..\:/Android/Projects/7agzkora/app/src/main/res/drawable/share.xml" value="0.2703125" />
+        <entry key="..\:/Android/Projects/7agzkora/app/src/main/res/drawable/soccer.xml" value="0.2703125" />
         <entry key="..\:/Android/Projects/7agzkora/app/src/main/res/layout/activity_main.xml" value="0.23007246376811594" />
+        <entry key="..\:/Android/Projects/7agzkora/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/Projects/7agzkora/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Android/Projects/7agzkora/app/src/main/res/layout/fragment_splash.xml" value="0.17300724637681159" />
         <entry key="..\:/Android/Projects/7agzkora/app/src/main/res/layout/header.xml" value="0.23007246376811594" />
         <entry key="..\:/Android/Projects/7agzkora/app/src/main/res/menu/nav_menu.xml" value="0.25416666666666665" />

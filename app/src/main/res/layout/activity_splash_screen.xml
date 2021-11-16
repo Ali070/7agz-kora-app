@@ -6,45 +6,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/splashfootball"
-    tools:context=".SplashFragment">
+    tools:context=".SplashScreen">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/messageTV"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="142dp"
         android:fontFamily="sans-serif-medium"
         android:shadowColor="@color/shadow"
         android:shadowDx="2"
         android:shadowDy="2"
         android:shadowRadius="4"
-        android:text="Play football"
+        android:text="@string/play_football"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/messgae2TV"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/messgae2TV"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="142dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="5dp"
         android:fontFamily="sans-serif-medium"
         android:shadowColor="@color/shadow"
         android:shadowDx="2"
         android:shadowDy="2"
         android:shadowRadius="4"
-        android:text="Make friends"
+        android:text="@string/make_friends"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/messageTV"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

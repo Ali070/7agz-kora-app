@@ -8,4 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="shadow">#13ED1D</color>
+    <color name="nav_back_color">#FFF4BD</color>
+    <color name="item_back">#F8EA8C</color>
+    <color name="icon_color">#76B947</color>
+    <color name="item_text_color">#FF8300</color>
+    <color name="toolbar">#B1B1B1</color>
 </resources>
