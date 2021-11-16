@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="@string/home"
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/home"/>
+        <item android:title="@string/favorites"
+            android:id="@+id/favoritesFragment"
+            android:icon="@drawable/favorite"/>
+        <item android:title="@string/my_games"
+            android:id="@+id/gamesFragment"
+            android:icon="@drawable/soccer"/>
+    </group>
+    <item android:title="@string/other">
+        <menu>
+            <item android:title="@string/settings"
+                android:id="@+id/settings"
+                android:icon="@drawable/settings"/>
+            <item android:title="@string/info"
+                android:id="@+id/info"
+                android:icon="@drawable/info"/>
+            <item android:title="@string/share"
+                android:id="@+id/share"
+                android:icon="@drawable/share"/>
+            <item android:title="@string/rate"
+                android:id="@+id/rate"
+                android:icon="@drawable/rate"/>
+        </menu>
+    </item>
+</menu>
