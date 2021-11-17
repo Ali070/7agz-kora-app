@@ -12,4 +12,10 @@
     <string name="rate">Rate</string>
     <string name="make_friends">Make friends</string>
     <string name="play_football">Play football</string>
+    <string name="address">Address</string>
+    <string name="date">Date</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="apply">Apply</string>
+    <string name="add_match">Add Match</string>
 </resources>
