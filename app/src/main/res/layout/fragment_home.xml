@@ -28,14 +28,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/shadow"
-        android:clickable="true"
         android:src="@drawable/add"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.985"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:rippleColor="@color/white"
-        app:tint="@color/white" />
+        app:tint="@color/white"
+        />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/data"
@@ -114,7 +114,7 @@
             app:layout_constraintTop_toBottomOf="@+id/inputDate" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/addTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="89dp"
